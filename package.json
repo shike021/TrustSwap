@@ -1,0 +1,17 @@
+{
+    "name": "smart-contract-escrow",
+    "version": "1.0.0",
+    "description": "A smart contract escrow service for online purchases",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^1.7.0",
+        "dotenv": "^16.0.3",
+        "web3": "^1.7.3"
+    }
+}
