@@ -18,7 +18,7 @@ module.exports = {
 
   compilers: {
     solc: {
-      version: "0.8.0",
+      version: "0.8.19", // Updated to match OpenZeppelin compatibility
       settings: {
         optimizer: {
           enabled: true,
@@ -26,5 +26,7 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  contracts_directory: './contracts',
+  contracts_build_directory: './build/contracts'
 };

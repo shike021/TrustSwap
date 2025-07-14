@@ -1,70 +1,55 @@
 # 比赛说明
 Morph Consumer Buildathon: Transforming On-Chain Consumer Finance Online
-Morph 消费者构建马拉松：将链上消费者金融在线化
 Welcome to the Morph Buildathon, a 6-week online buildathon dedicated to on-chain consumer finance. This exciting event starts on June 23, 2025, and runs through August 4, 2025, welcoming participants globally to collaborate and compete in a completely virtual setting. Whether you're a seasoned developer, an entrepreneur, or a creative financial thinker, the Morph Buildathon offers a chance to create impactful solutions within the consumer finance space.
-欢迎参加 Morph Buildathon，这是一个为期 6 周的线上构建活动，专注于链上消费者金融。这个激动人心的活动将于 2025 年 6 月 23 日开始，持续至 2025 年 8 月 4 日，邀请全球参与者在一个完全虚拟的环境中合作和竞争。无论你是经验丰富的开发者、企业家，还是富有创意的金融思考者，Morph Buildathon 都为你提供了一个在消费者金融领域创造有影响力解决方案的机会。
 
-Prize Pool  奖金池
+
+Prize Pool 
 The Morph Buildathon has a total prize pool $15,000 in USDT, which will be distributed across two tracks. In addition to cash prizes, we are considering additional non-monetary incentives such as exclusive internship interviews with Morph and feature opportunities on our platform, rewarding outstanding creativity and innovation.
-Morph Buildathon 的总奖金池为 15,000 美元 USDT，将分配在两个赛道中。除了现金奖金外，我们还在考虑提供额外的非货币激励，例如与 Morph 的独家实习面试以及在我们的平台上展示特色机会，以奖励杰出的创意和创新。
 
-Timeline  时间线
+
+Timeline 
 Start Date: June 23, 2025
-开始日期：2025 年 6 月 23 日
 Midpoint Check-in: July 14, 2025
-中期检查：2025 年 7 月 14 日
 Final Submission Deadline: August 04, 2025
-最终提交截止日期：2025 年 8 月 4 日
 Winner Announcement: August 18, 2025
-获奖者公布：2025 年 8 月 18 日
-Tracks and Challenges  赛道与挑战
+Tracks and Challenges  
 The Morph Buildathon comprises two main tracks:
-Morph 构建马拉松包含两个主要赛道：
 
-PayFi Track  PayFi 赛道
+PayFi Track 
 Focus on payment solutions that bridge fiat and cryptocurrencies, ensure payment security, and innovate in payments infrastructure. Participants are encouraged to explore technologies that make transactions more efficient, reliable, and accessible for users globally.
-专注于连接法币和加密货币的支付解决方案，确保支付安全，并在支付基础设施方面进行创新。鼓励参与者探索使交易对全球用户更高效、更可靠、更便捷的技术。
 
-PayFi project ideas  PayFi 项目创意
 
-Consumer Track  消费者赛道
+PayFi project ideas  
+
+Consumer Track 
 Develop consumer-facing applications that enhance financial literacy, offer intuitive budget tools, implement user-friendly interfaces for crypto transactions, and create innovative investment platforms. Participants are invited to tailor solutions that prioritize user experience and security.
-开发面向消费者的应用程序，提升金融素养，提供直观的预算工具，实现用户友好的加密货币交易界面，并创建创新的投资平台。邀请参与者量身定制优先考虑用户体验和安全的解决方案。
 
-Consumer project ideas  消费者项目想法
 
-Submission Requirements  提交要求
+Consumer project ideas 
+
+Submission Requirements 
 Every submission must be deployed on Morph testnet
-每项提交都必须部署在 Morph 测试网上
 Must include a public Github repo
-必须包含一个公开的 Github 仓库
 Must include a demo video
-必须包含一个演示视频
 Must include a link to the MVP
-必须包含一个 MVP 链接
 Submissions will be evaluated based on criteria such as innovation, technical proficiency, scalability, user experience, and impact potential.
-提交将根据创新性、技术熟练度、可扩展性、用户体验和潜在影响力等标准进行评估。
 
-Resources  资源
-Testnet tokens faucet  测试网代币水龙头
-Morph Main Website  Morph 主网站
-Developer Documentation  开发者文档
-Educational Resources  教育资源
-Event Positioning  活动定位
+Resources  
+Testnet tokens faucet
+Morph Main Website 
+Developer Documentation 
+Educational Resources 
+Event Positioning 
 Morph Buildathon is designed to foster innovation and collaboration in the burgeoning field of blockchain-enabled consumer finance. By offering a platform open to participants from all backgrounds and skill levels, we aim to explore new frontiers in financial technology, focusing on applications that can significantly benefit everyday consumers. This hackathon encourages developing solutions that integrate seamlessly into the modern financial landscape, with potential to set new industry standards.
-Morph Buildathon 旨在促进区块链赋能消费金融这一新兴领域的创新与协作。通过为所有背景和技能水平的参与者提供开放平台，我们致力于探索金融科技的新前沿，重点关注能够显著惠及普通消费者的应用。此次黑客马拉松鼓励开发能够与现代金融格局无缝集成的解决方案，并有望树立新的行业标准。
 
-Encouragement and Vision  鼓励与愿景
+Encouragement and Vision 
 Morph Buildathon envisions a future where financial services are inclusive, transparent, and accessible to all. We encourage participants to think big, challenge norms, and pave the way for groundbreaking advancements in on-chain consumer finance. With the support of our community and partners, we are excited to see transformative ideas come to life.
-Morph Buildathon 展望一个金融服务业包容、透明且对所有人均可及的未来。我们鼓励参与者大胆思考、挑战常规，为链上消费者金融领域的突破性进步铺平道路。在社区和合作伙伴的支持下，我们很兴奋地看到变革性的想法变为现实。
 
 
 # 参赛题目
 Smart Contract Escrow for Online Purchases #1554963
-在线购买智能合约托管#1554963
 
 A service that uses smart contracts to hold payment in escrow until both buyer and seller confirm the transaction, enhancing trust in online marketplaces.
-一项使用智能合约在买卖双方确认交易前托管支付款项的服务，增强在线市场的信任度。
 
 # 开发资料和文档
 Skip to main content
