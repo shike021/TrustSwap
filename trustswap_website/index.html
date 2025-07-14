@@ -6,17 +6,24 @@
     <title>TrustSwap - Secure Escrow on Blockchain</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background: linear-gradient(135deg, #f4f4f9, #e0e7ff);
             color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         header {
             background: linear-gradient(135deg, #6e4aff, #3f8cff);
             color: white;
             padding: 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
@@ -43,8 +50,13 @@
             width: 30%;
         }
         .feature img {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature img:hover {
+            transform: scale(1.1);
         }
         footer {
             background: #333;
@@ -54,6 +66,33 @@
             margin-top: 40px;
         }
     </style>
+    <script>
+        let balance = 0;
+        let status = "Pending";
+
+        function updateUI() {
+            document.getElementById("transaction-status").textContent = status;
+            document.getElementById("escrow-balance").textContent = `${balance} ETH`;
+        }
+
+        function simulateTransaction() {
+            const resultElement = document.getElementById('simulation-result');
+            resultElement.textContent = 'Simulating transaction...';
+            status = "Processing";
+            balance = "1 ETH";
+            updateUI();
+
+            setTimeout(() => {
+                status = "Confirmed";
+                balance = "0 ETH";
+                updateUI();
+                resultElement.textContent = 'Transaction confirmed by both parties. Funds released to seller.';
+            }, 2000);
+        }
+
+        // Initialize UI
+        window.onload = updateUI;
+    </script>
 </head>
 <body>
     <header>
@@ -75,17 +114,27 @@
                 <h3>Enhanced Security</h3>
                 <p>Funds are released only after both parties confirm.</p>
             </div>
-        <div class="feature">
-            <img src="https://img.icons8.com/ios-filled/100/blockchain-technology.png" alt="Blockchain">
-            <h3>Blockchain Integration</h3>
-            <p>Leverages Ethereum Layer-2 for scalability and security.</p>
+            <div class="feature">
+                <img src="https://img.icons8.com/ios-filled/100/blockchain-technology.png" alt="Blockchain">
+                <h3>Blockchain Integration</h3>
+                <p>Leverages Ethereum Layer-2 for scalability and security.</p>
+            </div>
+            <div class="feature">
+                <img src="https://img.icons8.com/ios-filled/100/handshake.png" alt="Trust">
+                <h3>Trustworthy Transactions</h3>
+                <p>Eliminates fraud risk with smart contract-based escrow.</p>
+            </div>
         </div>
-        <div class="feature">
-            <img src="https://img.icons8.com/ios-filled/100/handshake.png" alt="Trust">
-            <h3>Trustworthy Transactions</h3>
-            <p>Eliminates fraud risk with smart contract-based escrow.</p>
+        <div style="margin-top: 40px; text-align: center;">
+                <button onclick="simulateTransaction()" style="background: linear-gradient(135deg, #6e4aff, #3f8cff); color: white; padding: 15px 30px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+                    Simulate Transaction
+                </button>
+            <p id="simulation-result" style="margin-top: 20px; font-size: 18px;"></p>
+            <div style="margin-top: 20px;">
+                <p><strong>Transaction Status:</strong> <span id="transaction-status">Pending</span></p>
+                <p><strong>Escrow Balance:</strong> <span id="escrow-balance">0 ETH</span></p>
+            </div>
         </div>
-    </div>
     <footer>
         <p>&copy; 2025 TrustSwap. All rights reserved.</p>
         <div style="margin-top: 10px;">
